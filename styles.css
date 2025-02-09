@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    padding-top: 12px;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 48px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+}
+
+a {
+    text-decoration-line: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first {
+    display: flex;
+    margin: 24px 48px 24px 48px;
+    gap: 24px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 4px 18px;
+    border-radius: 8px;
+}
+
+.first img{
+    display: flex;
+    max-width: 300px;
+    height: auto;
+}
+
+.second {
+    text-align: center;
+    background-color: white;
+}
+
+.section {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 24px;
+}
+
+.container {
+    display: flex;
+    margin: 24px 48px 48px 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text {
+    font-size: 18px;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.group img {
+    width: 200px;
+    height: auto;
+}
+
+.third {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.backdrop {
+    background-color: white;
+}
+
+.cta {
+    background-color: #3882f6;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.sign {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    padding: 24px;
+}
