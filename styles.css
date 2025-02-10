@@ -11,11 +11,12 @@ body {
     justify-content: space-between;
     margin-bottom: 48px;
     padding-top: 12px;
+    margin-right: 24px;
 }
 
 .header {
     font-size: 24px;
-    color: #f9faf8;
+    color: rgb(242, 242, 131);
     margin-left: 48px;
 }
 
@@ -36,30 +37,37 @@ a {
     display: flex;
     margin: 24px 48px 24px 48px;
     gap: 24px;
+    align-items: center;
 }
 
 .hero {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
+    color: rgb(242, 242, 131);
+    margin: 24px;
 }
 
 .hero2 {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 16px;
 }
 
 button {
-    background-color: #3882f6;
-    color: #e5e7eb;
+    background-color: rgb(242, 242, 131);
+    color: black;
     padding: 4px 18px;
     border-radius: 8px;
 }
 
+.button1 {
+    margin-left: 16px;
+}
+
 .first img{
     display: flex;
-    max-width: 300px;
-    height: auto;
+    width: auto;
+    height: 200px;
 }
 
 .second {
@@ -89,7 +97,7 @@ button {
 
 .group img {
     width: 200px;
-    height: auto;
+    height: 150px;
 }
 
 .third {
@@ -118,21 +126,22 @@ button {
 }
 
 .cta {
-    background-color: #3882f6;
+    background-color:  rgb(242, 242, 131);
     padding: 24px 48px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .call {
     font-size: 24px;
-    color: #f9faf8;
+    color: black;
     font-weight: bold;
 }
 
 .sign {
     font-size: 18px;
-    color: #e5e7eb;
+    color: black;
 }
 
 .footer {
