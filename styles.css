@@ -38,13 +38,14 @@ a {
     margin: 24px 48px 24px 48px;
     gap: 24px;
     align-items: center;
+    justify-content: center;
 }
 
 .hero {
     font-size: 48px;
     font-weight: 900;
     color: rgb(242, 242, 131);
-    margin: 24px;
+    margin: 16px;
 }
 
 .hero2 {
@@ -105,6 +106,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 48px 100px;
+    justify-content: center;
 }
 
 .quote {
@@ -149,5 +151,6 @@ button {
     justify-content: center;
     align-items: center;
     color: #f9faf8;
-    padding: 24px;
+    padding: 8px;
+    font-size: 12px;
 }
