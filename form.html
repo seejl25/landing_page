@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register Now</h1>
+        <form>
+            <div class="parentsName">
+                <label>Parent/Guardian's Name</label>
+                <input type="text" placeholder="Enter your name" required/>
+            </div>
+            <div class="childName">
+                <label>Child's Name</label>
+                <input type="text" placeholder="Enter your child's name" required/>
+            </div>
+            <div class="age">
+                <label>Child's age</label>
+                <input type="number" placeholder="Enter your child's age" required/>
+            </div>
+            <div class="phoneNumber">
+                <label>Phone number</label>
+                <input type="tel" placeholder="91234567"  required/>
+            </div>
+            <div class="email">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required/>
+            </div>
+            <div class="lessons">
+                <p>What class(es) do you intend to sign up for?</p>
+                <div class="options">
+                    <label>English</label>
+                    <input type="checkbox">
+                </div>
+                <div class="options">
+                    <label>Chinese</label>    
+                    <input type="checkbox">
+                </div>
+                <div class="options">
+                    <label>Mathematics</label>
+                    <input type="checkbox">
+                </div>
+                <div class="options">
+                    <label>Science</label>
+                    <input type="checkbox">
+                </div>
+            </div>
+            <div class="submit">
+                <button id="btn">submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="./form.js"></script>
+</body>
+</html>

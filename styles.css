@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    font-size: 24px;
+    font-size: 32px;
     color: rgb(242, 242, 131);
     margin-left: 48px;
 }
@@ -59,6 +59,7 @@ button {
     color: black;
     padding: 4px 18px;
     border-radius: 8px;
+    font-size: 16px;
 }
 
 .button1 {
@@ -153,4 +154,9 @@ button {
     color: #f9faf8;
     padding: 8px;
     font-size: 12px;
+}
+
+button a {
+    text-decoration-line: none;
+    color: black;
 }
