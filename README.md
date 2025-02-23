@@ -1,3 +1,6 @@
 # landing_page
-Creating my first landing page template using HTML and CSS
-Attempt at creating a landing page for a tuition centre
+Creating a landing page project by TheOdinProject
+Provided with a template of how the landing page should look like
+Decided to get more creative by making it similar to a tuition centre homepage 
+
+Created a "Register Now" form page which will appear when users click on the "sign up" button
